@@ -12,14 +12,13 @@
 		3A4F96C725C5876500CC46E9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F96C625C5876500CC46E9 /* ImageTableViewCell.swift */; };
 		3A597A3D25B88CFA0071D7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A3C25B88CFA0071D7F9 /* AppDelegate.swift */; };
 		3A597A3F25B88CFA0071D7F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A3E25B88CFA0071D7F9 /* SceneDelegate.swift */; };
-		3A597A4125B88CFA0071D7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A4025B88CFA0071D7F9 /* ViewController.swift */; };
+		3A597A4125B88CFA0071D7F9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A4025B88CFA0071D7F9 /* TableViewController.swift */; };
 		3A597A4425B88CFA0071D7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A597A4225B88CFA0071D7F9 /* Main.storyboard */; };
 		3A597A4625B88D010071D7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A597A4525B88D010071D7F9 /* Assets.xcassets */; };
 		3A597A4925B88D010071D7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A597A4725B88D010071D7F9 /* LaunchScreen.storyboard */; };
 		3A597A5B25B8B6620071D7F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A5A25B8B6620071D7F9 /* Model.swift */; };
 		3A597A6025B8BDA10071D7F9 /* AlamofireNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A5F25B8BDA10071D7F9 /* AlamofireNetworkRequest.swift */; };
-		3A597A6925B8C0970071D7F9 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A597A6825B8C0970071D7F9 /* NetworkError.swift */; };
-		3AE53BA725B9B862005606B5 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE53BA625B9B862005606B5 /* TableView.swift */; };
+		3A8B8A8B25C59311000D626B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B8A8A25C59311000D626B /* ViewModel.swift */; };
 		3AE53BAA25B9B9E5005606B5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE53BA925B9B9E5005606B5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,15 +29,14 @@
 		3A597A3925B88CFA0071D7F9 /* Testovoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testovoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A597A3C25B88CFA0071D7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A597A3E25B88CFA0071D7F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A597A4025B88CFA0071D7F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A597A4025B88CFA0071D7F9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3A597A4325B88CFA0071D7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A597A4525B88D010071D7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A597A4825B88D010071D7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A597A4A25B88D010071D7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A597A5A25B8B6620071D7F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3A597A5F25B8BDA10071D7F9 /* AlamofireNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetworkRequest.swift; sourceTree = "<group>"; };
-		3A597A6825B8C0970071D7F9 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		3AE53BA625B9B862005606B5 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		3A8B8A8A25C59311000D626B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		3AE53BA925B9B9E5005606B5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		56F2BDC67019DEDE716F2F1A /* Pods-Testovoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testovoe.debug.xcconfig"; path = "Target Support Files/Pods-Testovoe/Pods-Testovoe.debug.xcconfig"; sourceTree = "<group>"; };
 		C5CADA93F163666CFD7C8CC3 /* Pods-Testovoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testovoe.release.xcconfig"; path = "Target Support Files/Pods-Testovoe/Pods-Testovoe.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,8 +75,10 @@
 		3A597A3B25B88CFA0071D7F9 /* Testovoe */ = {
 			isa = PBXGroup;
 			children = (
-				3A597A6325B8BFD90071D7F9 /* Application */,
-				3A597A6725B8C0000071D7F9 /* Data */,
+				3A597A5425B8A2820071D7F9 /* Model */,
+				3A597A5325B8A2760071D7F9 /* View */,
+				3A8B8A8925C592DF000D626B /* ViewModel */,
+				3A8B8A9925C5B188000D626B /* Networking */,
 				3A597A5625B8A2C60071D7F9 /* Supporting files */,
 				3A14999425BEF9A200B95035 /* README.text */,
 			);
@@ -89,9 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				3A597A4225B88CFA0071D7F9 /* Main.storyboard */,
-				3AE53BA625B9B862005606B5 /* TableView.swift */,
+				3A597A4725B88D010071D7F9 /* LaunchScreen.storyboard */,
 				3AE53BA925B9B9E5005606B5 /* TableViewCell.swift */,
 				3A4F96C625C5876500CC46E9 /* ImageTableViewCell.swift */,
+				3A597A4025B88CFA0071D7F9 /* TableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,75 +105,31 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3A597A5525B8A28B0071D7F9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3A597A4025B88CFA0071D7F9 /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		3A597A5625B8A2C60071D7F9 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				3A597A3E25B88CFA0071D7F9 /* SceneDelegate.swift */,
+				3A597A3C25B88CFA0071D7F9 /* AppDelegate.swift */,
 				3A597A4525B88D010071D7F9 /* Assets.xcassets */,
 				3A597A4A25B88D010071D7F9 /* Info.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
 		};
-		3A597A5E25B8BD5D0071D7F9 /* NetworkService */ = {
+		3A8B8A8925C592DF000D626B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A8B8A8A25C59311000D626B /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A8B8A9925C5B188000D626B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				3A597A5F25B8BDA10071D7F9 /* AlamofireNetworkRequest.swift */,
 			);
-			path = NetworkService;
-			sourceTree = "<group>";
-		};
-		3A597A6325B8BFD90071D7F9 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				3A597A6625B8BFF70071D7F9 /* Model */,
-				3A597A6525B8BFEE0071D7F9 /* View */,
-				3A597A6425B8BFE10071D7F9 /* Controller */,
-				3A597A5E25B8BD5D0071D7F9 /* NetworkService */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		3A597A6425B8BFE10071D7F9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3A597A3C25B88CFA0071D7F9 /* AppDelegate.swift */,
-				3A597A3E25B88CFA0071D7F9 /* SceneDelegate.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3A597A6525B8BFEE0071D7F9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				3A597A4725B88D010071D7F9 /* LaunchScreen.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3A597A6625B8BFF70071D7F9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3A597A6825B8C0970071D7F9 /* NetworkError.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3A597A6725B8C0000071D7F9 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				3A597A5425B8A2820071D7F9 /* Model */,
-				3A597A5325B8A2760071D7F9 /* View */,
-				3A597A5525B8A28B0071D7F9 /* Controller */,
-			);
-			path = Data;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		3C3D9F16D7D7FE5CA9B12A39 /* Frameworks */ = {
@@ -307,13 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE53BA725B9B862005606B5 /* TableView.swift in Sources */,
+				3A8B8A8B25C59311000D626B /* ViewModel.swift in Sources */,
 				3A597A6025B8BDA10071D7F9 /* AlamofireNetworkRequest.swift in Sources */,
-				3A597A4125B88CFA0071D7F9 /* ViewController.swift in Sources */,
+				3A597A4125B88CFA0071D7F9 /* TableViewController.swift in Sources */,
 				3A4F96C725C5876500CC46E9 /* ImageTableViewCell.swift in Sources */,
 				3A597A3D25B88CFA0071D7F9 /* AppDelegate.swift in Sources */,
 				3AE53BAA25B9B9E5005606B5 /* TableViewCell.swift in Sources */,
-				3A597A6925B8C0970071D7F9 /* NetworkError.swift in Sources */,
 				3A597A3F25B88CFA0071D7F9 /* SceneDelegate.swift in Sources */,
 				3A597A5B25B8B6620071D7F9 /* Model.swift in Sources */,
 			);
